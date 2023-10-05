@@ -24,7 +24,7 @@
     "commander": "^2.9.0",
     "fs-extra": "^2.0.0",
     "moment": "^2.17.1",
-    "pump": "^1.0.2",
+    "pump": "^3.0.0",
     "sprintf": "^0.1.5",
     "stat-mode": "^0.2.2"
   }
