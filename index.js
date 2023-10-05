@@ -19,7 +19,7 @@ function ftpd (opts, sessionCb) {
     readOnly: true
   }, opts)
 
-  const ftpServer = createServer()
+  const ftpServer = createServer({ keepAlive: true })
   ftpServer.maxConnections = opts.maxConnections
 
   if (sessionCb) {
